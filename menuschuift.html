@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+    <meta name="author" content="Sohil Alami MD1A">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inhoud Schuift</title>
+		<style>
+
+			#toggleMenu:checked ~ main {
+				margin-left: 10em;
+			}
+
+			#toggleLabel::before {
+				content: "\2630";
+				cursor: pointer;
+			}
+
+			#toggleMenu:checked ~ main #toggleLabel::before {
+				content: "\2715";
+			}
+
+			nav {
+				position: fixed;
+			}
+
+			main {
+				position: absolute;
+				margin-left: 0;
+				transition: margin-left .6s cubic-bezier(.17,.67,.83,1.36);
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<input type="checkbox" id="toggleMenu">
+
+		<nav>
+			<h4>Menu</h4>
+			<ul>
+        <li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a href="inhoudschuift.html">The Avengers</a>
+				</li>
+				<li>
+					<a class="active" href="menuschuift.html">Thanos</a>
+				</li>
+				<li>
+					<a href="allesschuift.html">Ironman</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<label for="toggleMenu" id="toggleLabel"></label>
+
+			<h1>Thanos</h1>
+			<p><img src="https://www.sideshow.com/product-asset/903429/feature" alt="Thanos">
+			</p>
+			<p>Thanos is een personage uit de strips van Marvel Comics. Hij is bedacht door Jim Starlin en maakte zijn debuut in Iron Man #55 (Februari 1973). Zijn naam is afgeleid van Thanatos, de personificatie van de dood in de Griekse Mythologie. Het personage heeft nadien ook zijn opwachting gemaakt in animatieseries en videospellen gebaseerd op de strips, en het Marvel Cinematic Universe. Hij staat 46e op IGN's lijst van 100 grootste stripboek-superschurken aller tijden.
+			</p>
+			<p>Starlin bedacht het personage toen hij psychologie studeerde aan de hogeschool. Volgens eigen zeggen liet hij zich inspireren door het personage Darkseid, bedacht door Jack Kirby. Toen hij van Marvel de opdracht kreeg om een Iron Man-strip te maken, greep hij zijn kans om Thanos te introduceren.
+			</p>
+			<p>De strip waarin Thanos zijn debuut maakte werd al snel uitgebreid naar een verhaallijn die naast de Iron Man-strips ook meerdere andere striptitels van Marvel in beslag nam, waaronder de toen lopende reeksen van Captain Marvel, Daredevil, en Avengers. In de jaren erop heeft hij ook meegespeeld in verhalen van de X-Men, de Hulk, de Silver Surfer, Thor, en Secret Defenders. Thanos kreeg in 2004 zijn eigen stripserie.
+			</p>
+			<p>Thanos behoort tot de Eternals, een ras van supermensen dat door de goddelijke Celestials werd gecreëerd. De Eternals hebben hun thuisbasis op Titan, de maan rond Saturnus. Door een latent gen lijkt Thanos echter sterk op de monsterlijke Deviants, een aan de Eternals verwant ras. Hij heeft van jongs af aan een obsessie met de dood, die versterkt wordt door zijn liefde voor Mistress Death, de personificatie van de dood in het Marvel universum. Hij is een nihilist, en is er altijd op uit om zijn macht te vergroten. Zo heeft hij in de loop der jaren onder andere de Kosmische Kubus en de Infinity Stones bemachtigd. Zijn bijnaam is 'The Mad Titan'.
+			</p>
+      <p>
+     Bron Link:
+     <a href="url">http://wikipedia.nl</a>
+     </p>
+
+			<footer class="validatie">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+			        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+			    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+			        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+			    </a>
+			</footer>
+		</main>
+
+	</body>
+</html>

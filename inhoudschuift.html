@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+  <meta name="author" content="Sohil Alami MD1A">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Inhoud Schuift</title>
+		<style>
+
+			#toggleMenu:checked ~ main {
+				margin-left: 10em;
+			}
+
+			#toggleLabel::before {
+				content: "\2630";
+				cursor: pointer;
+			}
+
+			#toggleMenu:checked ~ main #toggleLabel::before {
+				content: "\2715";
+			}
+
+			nav {
+				position: fixed;
+			}
+
+			main {
+				position: absolute;
+				margin-left: 0;
+				transition: margin-left .6s cubic-bezier(.17,.67,.83,1.36);
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<input type="checkbox" id="toggleMenu">
+
+		<nav>
+			<h4>Menu</h4>
+			<ul>
+        <li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a class="active" href="inhoudschuift.html">The Avengers</a>
+				</li>
+				<li>
+					<a href="menuschuift.html">Thanos</a>
+				</li>
+				<li>
+					<a href="allesschuift.html">Ironman</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<label for="toggleMenu" id="toggleLabel"></label>
+
+			<h1>The Avengers</h1>
+			<p><img src="https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/avengers-920x584.jpg" alt="The Avengers">
+			</p>
+			<p>The Avengers is een Amerikaanse actiefilm uit 2012, geproduceerd door Marvel Studios en gedistribueerd door Walt Disney Pictures. Het verhaal is gebaseerd op de Marvel Comics met dezelfde naam.Het is het zesde deel van de Marvel Cinematic Universe, na Iron Man, The Incredible Hulk, Iron Man 2, Thor en Captain America: The First Avenger. De helden die in deze films individueel van elkaar werden geïntroduceerd, zijn in The Avengers voor het eerst samen te zien. De hoofdrollen worden vertolkt door Robert Downey jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Tom Hiddleston, en Samuel L. Jackson.
+			</p>
+			<p>Nick Fury arriveert tijdens een evacuatie in een afgelegen basis van S.H.I.E.L.D.. Het blijkt dat de Tesseract (dezelfde als die in Captain America: The First Avenger) tijdens experimenten van S.H.I.E.L.D. zichzelf heeft geactiveerd. De kubus veroorzaakt een wormgat waarlangs Loki op aarde is beland. Loki is blijkbaar tussen het moment dat hij aan het eind van de film Thor in het wormgat van de Bifröst viel en zijn aankomst op aarde in contact gekomen met een buitenaards ras genaamd de Chitauri, en heeft hen de kubus beloofd in ruil voor hun hulp de aarde te veroveren. Eenmaal op aarde neemt Loki enkele S.H.I.E.L.D.-medewerkers in zijn macht, waaronder Dr. Erik Selvig en Agent Clint Barton, en steelt de kubus.
+			</p>
+			<p>Als reactie op Loki’s komst besluit Fury om het Avengersplan opnieuw uit de kast te halen. Agent Natasha Romanoff wordt naar India gestuurd om dr. Bruce Banner te rekruteren daar hij kan helpen de kubus op te sporen, terwijl agent Phil Coulson Tony Stark benadert. Fury gaat zelf langs bij Steve Rogers. Rogers, als Captain America, en Tony, als Iron Man, gaan achter Loki aan. Die blijkt in Duitsland bezig te zijn het iridum dat hij nodig heeft om de kracht van de kubus te kunnen beheersen te verzamelen. Hij wordt door de twee helden gevangen en naar de Helicarrier van S.H.I.E.L.D. gebracht. Dan arriveert onverwacht ook Thor op aarde om te proberen op zijn broer in te praten. Dit leidt tot een conflict tussen hem, Captain America en Iron Man.
+			</p>
+			<p>Loki wordt uiteindelijk opgesloten en de helden komen voor het eerst allemaal samen. Ze krijgen echter al snel argwaan over waarom S.H.I.E.L.D. hen niet eerder bijeen riep, en S.H.I.E.L.D.'s ware bedoelingen met de kubus. Na te zijn geconfronteerd met de bewijzen die Stark en Rogers gevonden hebben, biecht Fury uiteindelijk op dat sinds de gebeurtenissen uit de film Thor S.H.I.E.L.D. op de hoogte is van het bestaan van andere werelden en volkeren, en vreest dat enkele van deze volkeren de aarde als makkelijk doelwit zullen zien. Daarom wil S.H.I.E.L.D. van de kubus zelf wapens maken.
+			</p>
+      <p>
+     Bron Link:
+     <a href="url">http://wikipedia.nl</a>
+     </p>
+
+			<footer class="validatie">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+			        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+			    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+			        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+			    </a>
+			</footer>
+		</main>
+
+	</body>
+</html>

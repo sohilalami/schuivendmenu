@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+    <meta name="author" content="Sohil Alami MD1A">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inhoud Schuift</title>
+		<style>
+
+			#toggleMenu:checked ~ main {
+				margin-left: 10em;
+			}
+
+			#toggleLabel::before {
+				content: "\2630";
+				cursor: pointer;
+			}
+
+			#toggleMenu:checked ~ main #toggleLabel::before {
+				content: "\2715";
+			}
+
+			nav {
+				position: fixed;
+			}
+
+			main {
+				position: absolute;
+				margin-left: 0;
+				transition: margin-left .6s cubic-bezier(.17,.67,.83,1.36);
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<input type="checkbox" id="toggleMenu">
+
+		<nav>
+			<h4>Menu</h4>
+			<ul>
+        <li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a href="inhoudschuift.html">The Avengers</a>
+				</li>
+				<li>
+					<a href="menuschuift.html">Thanos</a>
+				</li>
+				<li>
+					<a class="active" href="allesschuift.html">Ironman</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<label for="toggleMenu" id="toggleLabel"></label>
+
+			<h1>Ironman</h1>
+			<p><img src="3.jpg" alt="Ironman">
+			</p>
+			<p>Iron Man's creatie was een samenwerking tussen verschillende schrijvers en tekenaars. Stan Lee bedacht de verhalen, Larry Lieber werkte ze uit, Don Heck deed vooral in de eerste Iron Man strips veel van het tekenwerk en gaf de bekendste personages, waaronder Tony Stark zelf, hun uiterlijk, en Jack Kirby ontwierp steeds de cover van een strip. Bovendien bedacht hij Iron Mans oorspronkelijke harnas.
+			</p>
+			<p>Iron Man's creatie was een samenwerking tussen verschillende schrijvers en tekenaars. Stan Lee bedacht de verhalen, Larry Lieber werkte ze uit, Don Heck deed vooral in de eerste Iron Man strips veel van het tekenwerk en gaf de bekendste personages, waaronder Tony Stark zelf, hun uiterlijk, en Jack Kirby ontwierp steeds de cover van een strip. Bovendien bedacht hij Iron Mans oorspronkelijke harnas.
+      Iron Man deed zijn intrede in strips van meestal 13, maar soms ook 18 pagina’s lang. Net als de andere strips in Tales of Suspense draaiden zijn strips vaak om sciencefiction en bovennatuurlijke thema’s. In nummer 40 werd Iron Man´s oorspronkelijke grijze harnas vervangen door een gouden pantser, en in nummer 48 droeg hij voor het eerst zijn beroemde rood-gouden pak. Vanaf nummer 59 (November 1964) begon Iron Man zijn plaats in Tales of Suspense te delen met Captain America. In maart 1968 werd na 99 nummers de strip "Tales of Suspense" geheel omgedoopt tot Captain America. Iron Man kwam hier nog eenmaal in voor. In mei 1968 kreeg Iron Man zijn eigen stripserie beginnend met Iron Man nummer 1.
+			</p>
+			<p>Iron Man was oorspronkelijk bedoeld als een anticommunistische held. In de verschillende stripseries waar Iron Man centraal in stond waren technologische vooruitgang en nationale veiligheid steeds terugkerende thema’s. Geleidelijk veranderde dit waardoor Stark in een meer complex personage veranderde.
+			</p>
+			<p>Anthony Edward “Tony” Stark is de zoon van de industriemagnaat Howard Stark en Maria Carbonell. Al op jonge leeftijd bleek hij een aanleg te hebben voor mechanica. Op zijn vijftiende werd hij al toegelaten in een universitair elektrotechniek programma op het “Massachusetts Institute of Technology”. Toen hij 21 was erfde hij, na de dood van zijn ouders in een auto-ongeluk, zijn vaders bedrijf Stark Industries, en veranderde het binnen een paar jaar in een miljoenenbedrijf dat vooral wapens en munitie leverde aan de Amerikaanse overheid.
+			</p>
+      <p>
+     Bron Link:
+     <a href="url">http://wikipedia.nl</a>
+     </p>
+
+			<footer class="validatie">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+			        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+			    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+			        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+			    </a>
+			</footer>
+		</main>
+
+	</body>
+</html>
